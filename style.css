@@ -1,0 +1,35 @@
+.calender {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 10px;
+    column-gap: 15px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: white; 
+}
+
+.date,
+.day {
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.day {
+    background-color: black;
+    font-size: 1.5em;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
